@@ -1,0 +1,23 @@
+<!-- 1. Load Firebase Libraries -->
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+
+<!-- 2. Initialize with YOUR Credentials -->
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyAamL4eLt5pcFU980aNHXzqTbH6v-Ae6-s",
+    authDomain: "lg-comea-masterapp.firebaseapp.com",
+    databaseURL: "https://lg-comea-masterapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "lg-comea-masterapp",
+    storageBucket: "lg-comea-masterapp.firebasestorage.app",
+    messagingSenderId: "109521703047",
+    appId: "1:109521703047:web:73be0ad05d55ecb87ea822",
+    measurementId: "G-ZTPPD0N4G4"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const database = firebase.database();
+
+  console.log("System Online: Connected to LG-COMEA Database.");
+</script>
